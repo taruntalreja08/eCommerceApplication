@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.demo.jwtconfig;
+package com.example.demo.security;
 
 import java.io.IOException;
 import java.util.ArrayList;

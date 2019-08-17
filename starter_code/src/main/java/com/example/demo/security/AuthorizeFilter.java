@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.demo.jwtconfig;
+package com.example.demo.security;
 
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.AuthenticationManager;

@@ -1,0 +1,130 @@
+2019-08-17 20:27:16,608 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@39c0a15c]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@4b191631] 
+RESPONSETIME: 297
+
+2019-08-17 20:27:17,356 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/cart/addToCart] method=[POST] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0YXJ1biIsImV4cCI6MTU2NjkxNzgzN30.cdJEV-0BlcZnBInreYhBAZMcQK3AXlPrTIqUWWiqSSlul5e3PlAshlGe5qXGH0dPD6oPiDc7Y_YlPoE6QxNvMw, Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.ModifyCartRequest@24e32478]
+RESPONSE path=[/api/cart/addToCart] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.Cart@17f6ce87] 
+RESPONSETIME: 64
+
+2019-08-17 20:27:17,367 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/cart/addToCart] method=[POST] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0YXJ1biIsImV4cCI6MTU2NjkxNzgzN30.cdJEV-0BlcZnBInreYhBAZMcQK3AXlPrTIqUWWiqSSlul5e3PlAshlGe5qXGH0dPD6oPiDc7Y_YlPoE6QxNvMw, Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.ModifyCartRequest@683d775]
+RESPONSE path=[/api/cart/addToCart] method=[POST] status=[ 404 ] 
+RESPONSETIME: 2
+
+2019-08-17 20:27:17,408 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/cart/removeFromCart] method=[POST] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0YXJ1biIsImV4cCI6MTU2NjkxNzgzN30.cdJEV-0BlcZnBInreYhBAZMcQK3AXlPrTIqUWWiqSSlul5e3PlAshlGe5qXGH0dPD6oPiDc7Y_YlPoE6QxNvMw, Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.ModifyCartRequest@3de2c4d]
+RESPONSE path=[/api/cart/removeFromCart] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.Cart@1befc9c4] 
+RESPONSETIME: 37
+
+2019-08-17 20:27:17,433 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/cart/removeFromCart] method=[POST] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0YXJ1biIsImV4cCI6MTU2NjkxNzgzN30.cdJEV-0BlcZnBInreYhBAZMcQK3AXlPrTIqUWWiqSSlul5e3PlAshlGe5qXGH0dPD6oPiDc7Y_YlPoE6QxNvMw, Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.ModifyCartRequest@7308588b]
+RESPONSE path=[/api/cart/removeFromCart] method=[POST] status=[ 404 ] 
+RESPONSETIME: 3
+
+2019-08-17 20:27:17,626 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@7a9e844d]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@468f8e4e] 
+RESPONSETIME: 81
+
+2019-08-17 20:27:17,720 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/Tarun2] method=[GET] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjIiLCJleHAiOjE1NjY5MTc4Mzd9.BgiEKupj_kmYpLyNtfMfmUjicKTVQrPbXlnhjHG9hSLS-R4uJdQTBJ6aTD1J6F_-UGKHG877YwTSVF-D6wz7SA, Accept=application/json}] 
+RESPONSE path=[/api/user/Tarun2] method=[GET] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@66350dfd] 
+RESPONSETIME: 5
+
+2019-08-17 20:27:17,726 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/Tarun3] method=[GET] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjIiLCJleHAiOjE1NjY5MTc4Mzd9.BgiEKupj_kmYpLyNtfMfmUjicKTVQrPbXlnhjHG9hSLS-R4uJdQTBJ6aTD1J6F_-UGKHG877YwTSVF-D6wz7SA, Accept=application/json}] 
+RESPONSE path=[/api/user/Tarun3] method=[GET] status=[ 404 ] 
+RESPONSETIME: 1
+
+2019-08-17 20:27:17,739 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/id/2] method=[GET] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjIiLCJleHAiOjE1NjY5MTc4Mzd9.BgiEKupj_kmYpLyNtfMfmUjicKTVQrPbXlnhjHG9hSLS-R4uJdQTBJ6aTD1J6F_-UGKHG877YwTSVF-D6wz7SA, Accept=application/json}] 
+RESPONSE path=[/api/user/id/2] method=[GET] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@6923f838] 
+RESPONSETIME: 5
+
+2019-08-17 20:27:17,751 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/id/29] method=[GET] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjIiLCJleHAiOjE1NjY5MTc4Mzd9.BgiEKupj_kmYpLyNtfMfmUjicKTVQrPbXlnhjHG9hSLS-R4uJdQTBJ6aTD1J6F_-UGKHG877YwTSVF-D6wz7SA, Accept=application/json}] 
+RESPONSE path=[/api/user/id/29] method=[GET] status=[ 404 ] 
+RESPONSETIME: 6
+
+2019-08-17 20:27:17,921 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@a5ce541]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@74ca2717] 
+RESPONSETIME: 76
+
+2019-08-17 20:27:18,016 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/cart/addToCart] method=[POST] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjQiLCJleHAiOjE1NjY5MTc4Mzd9.560rtKHgtvovUDUpxgavO-cNNAsqv0ZSz85iUP-7jBksoRFjfLigesX6ZeVhjL8qHLuzSznqJrroQYlbis7oDA, Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.ModifyCartRequest@4b1587c0]
+RESPONSE path=[/api/cart/addToCart] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.Cart@108479b0] 
+RESPONSETIME: 16
+
+2019-08-17 20:27:18,050 +0530 [main] INFO  (LogInterceptor.java:52) - 
+null
+RESPONSE path=[/api/order/submit/Tarun4] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.UserOrder@386e7e39] 
+RESPONSETIME: 29
+
+2019-08-17 20:27:18,059 +0530 [main] INFO  (LogInterceptor.java:52) - 
+null
+RESPONSE path=[/api/order/submit/testValue] method=[POST] status=[ 404 ] 
+RESPONSETIME: 2
+
+2019-08-17 20:27:18,111 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/order/history/Tarun4] method=[GET] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjQiLCJleHAiOjE1NjY5MTc4Mzd9.560rtKHgtvovUDUpxgavO-cNNAsqv0ZSz85iUP-7jBksoRFjfLigesX6ZeVhjL8qHLuzSznqJrroQYlbis7oDA, Accept=application/json}] 
+RESPONSE path=[/api/order/history/Tarun4] method=[GET] status=[ 200 ] responseBody=[[com.example.demo.model.persistence.UserOrder@141fb4f9]] 
+RESPONSETIME: 17
+
+2019-08-17 20:27:18,120 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/order/history/testValue] method=[GET] headers=[{Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUYXJ1bjQiLCJleHAiOjE1NjY5MTc4Mzd9.560rtKHgtvovUDUpxgavO-cNNAsqv0ZSz85iUP-7jBksoRFjfLigesX6ZeVhjL8qHLuzSznqJrroQYlbis7oDA, Accept=application/json}] 
+RESPONSE path=[/api/order/history/testValue] method=[GET] status=[ 404 ] 
+RESPONSETIME: 2
+
+2019-08-17 20:27:18,167 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/item/1] method=[GET] headers=[{Accept=application/json}] 
+RESPONSE path=[/api/item/1] method=[GET] status=[ 200 ] responseBody=[com.example.demo.model.persistence.Item@20] 
+RESPONSETIME: 9
+
+2019-08-17 20:27:18,174 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/item/57] method=[GET] headers=[{Accept=application/json}] 
+RESPONSE path=[/api/item/57] method=[GET] status=[ 404 ] 
+RESPONSETIME: 3
+
+2019-08-17 20:27:18,195 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/item] method=[GET] headers=[{Accept=application/json}] 
+RESPONSE path=[/api/item] method=[GET] status=[ 200 ] responseBody=[[com.example.demo.model.persistence.Item@20, com.example.demo.model.persistence.Item@21]] 
+RESPONSETIME: 9
+
+2019-08-17 20:27:18,216 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/item/name/Round%20Widget] method=[GET] headers=[{Accept=application/json}] 
+RESPONSE path=[/api/item/name/Round%20Widget] method=[GET] status=[ 200 ] responseBody=[[com.example.demo.model.persistence.Item@20]] 
+RESPONSETIME: 14
+
+2019-08-17 20:27:18,223 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/item/name/Toys] method=[GET] headers=[{Accept=application/json}] 
+RESPONSE path=[/api/item/name/Toys] method=[GET] status=[ 404 ] 
+RESPONSETIME: 3
+
+2019-08-17 20:27:18,417 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@65fb3ada]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@234ce44c] 
+RESPONSETIME: 96
+
+2019-08-17 20:27:18,756 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@2528cb0d]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 400 ] 
+RESPONSETIME: 1
+
+2019-08-17 20:27:18,764 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@109b4eff]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 400 ] 
+RESPONSETIME: 1
+
+2019-08-17 20:27:18,772 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@70fc098e]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 400 ] 
+RESPONSETIME: 1
+
+2019-08-17 20:27:18,854 +0530 [main] INFO  (LogInterceptor.java:52) - 
+REQUEST path=[/api/user/create] method=[POST] headers=[{Accept=application/json, Content-Type=application/json;charset=UTF-8}] body=[com.example.demo.model.requests.CreateUserRequest@101b46b7]
+RESPONSE path=[/api/user/create] method=[POST] status=[ 200 ] responseBody=[com.example.demo.model.persistence.ApplicationUser@61e3ba50] 
+RESPONSETIME: 74
+
